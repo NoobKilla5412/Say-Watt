@@ -42,12 +42,12 @@ function activeSubDrop($doc1)
   }, 200);
 
   function offCanvasColorNormal() {
-    offCanvasStyle.background = 'purple';
+    offCanvasStyle.background = '#470047';
     for (let a = 0; a < navLinks.length; a++) {
       navLinks[a].style.color = 'black';
     }
     for (let b = 0; b < dropdownMenus.length; b++) {
-      dropdownMenus[b].style.background = 'purple';
+      dropdownMenus[b].style.background = '#470047';
     }
     for (let c = 0; c < dropdownItems.length; c++) {
       dropdownItems[c].style.color = 'black';
