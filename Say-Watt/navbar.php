@@ -59,7 +59,7 @@ function activeSubDrop($doc1)
     document.getElementsByClassName('navbar-brand')[1].style.color = 'black';
   }
 </script>
-<nav class="navbar navbar-lg navbar-dark">
+<nav class="navbar navbar-lg navbar-light">
   <div class="container-fluid" style="justify-content: start; padding-top:0px">
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
       aria-controls="navbarSupportedContent" style="float: left;" onclick="offCanvasColorNormal()">

@@ -38,7 +38,7 @@ $doc = "Home";
         <div
           style="display: flex; justify-content: center; align-content: center; align-items: center; flex-wrap: wrap;">
           <img src="" height="300px" width="208px" alt="Logo" />
-          Say Watt
+          Say<br>Watt
         </div>
       </h1>
       <hr>
