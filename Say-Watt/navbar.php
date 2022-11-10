@@ -44,19 +44,19 @@ function activeSubDrop($doc1)
   function offCanvasColorNormal() {
     offCanvasStyle.background = '#470047';
     for (let a = 0; a < navLinks.length; a++) {
-      navLinks[a].style.color = 'black';
+      navLinks[a].style.color = 'white';
     }
     for (let b = 0; b < dropdownMenus.length; b++) {
       dropdownMenus[b].style.background = '#470047';
     }
     for (let c = 0; c < dropdownItems.length; c++) {
-      dropdownItems[c].style.color = 'black';
+      dropdownItems[c].style.color = 'white';
     }
     if (document.getElementsByClassName('dropdown-item active')[0]) {
-      document.getElementsByClassName('dropdown-item active')[0].style.color = '#FFF';
+      document.getElementsByClassName('dropdown-item active')[0].style.color = 'yellow';
     }
-    document.getElementsByClassName('nav-link active')[0].style.color = '#FFF';
-    document.getElementsByClassName('navbar-brand')[1].style.color = 'black';
+    document.getElementsByClassName('nav-link active')[0].style.color = 'yellow';
+    document.getElementsByClassName('navbar-brand')[1].style.color = 'white';
   }
 </script>
 <nav class="navbar navbar-lg navbar-light">
