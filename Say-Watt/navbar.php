@@ -56,7 +56,7 @@ function activeSubDrop($doc1)
       document.getElementsByClassName('dropdown-item active')[0].style.color = '#FFF';
     }
     document.getElementsByClassName('nav-link active')[0].style.color = '#FFF';
-    document.getElementsByClassName('navbar-brand')[1].style.color = 'purple';
+    document.getElementsByClassName('navbar-brand')[1].style.color = 'black';
   }
 </script>
 <nav class="navbar navbar-lg navbar-dark">
