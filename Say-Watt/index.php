@@ -32,7 +32,7 @@ $doc = "Home";
 <body>
   <div class="container-fluid">
     <!-- Navbar -->
-    <?php include 'C:\wamp64\www\SayWatt-Website\Say Watt\navbar.php'; ?>
+    <?php include 'C:\wamp64\www\SayWatt-Website\Say-Watt\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
         <div
@@ -42,7 +42,7 @@ $doc = "Home";
         </div>
       </h1>
       <hr>
-      <?php include 'C:\wamp64\www\SayWatt-Website\Say Watt\names.php'; ?>
+      <?php include 'C:\wamp64\www\SayWatt-Website\Say-Watt\names.php'; ?>
       <hr>
     </div>
     <h3 id="team">
@@ -55,7 +55,7 @@ $doc = "Home";
 
     </p>
   </div>
-  <?php include 'C:\wamp64\www\SayWatt-Website\Say Watt\footer.php'; ?>
+  <?php include 'C:\wamp64\www\SayWatt-Website\Say-Watt\footer.php'; ?>
 </body>
 
 </html>
