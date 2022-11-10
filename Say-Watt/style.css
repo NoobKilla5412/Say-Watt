@@ -23,3 +23,12 @@ body {
 #logo {
   margin-left: calc(100% / 4);
 }
+
+#logo-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

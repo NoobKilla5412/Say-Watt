@@ -35,8 +35,7 @@ $doc = "Home";
     <?php include 'C:\wamp64\www\SayWatt-Website\Say-Watt\navbar.php'; ?>
     <div class="jumbotron text-center">
       <h1 id="title123">
-        <div
-          style="display: flex; justify-content: center; align-content: center; align-items: center; flex-wrap: wrap;">
+        <div id="logo-div">
           Say<br>Watt
           <img src="https://placekitten.com/300/208/" height="300px" width="208px" alt="Logo" id="logo" />
         </div>
