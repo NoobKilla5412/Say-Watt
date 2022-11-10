@@ -15,3 +15,7 @@
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+#logo {
+  margin-left: calc(100% / 4);
+}
