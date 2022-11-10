@@ -29,7 +29,7 @@ if (isset($_GET['q']) && !empty($_GET['q'])) {
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
   </script>
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="https://mechnosense.org/style.css" />
+  <link rel="stylesheet" href="https://saywatt.mechnosense.org/style.css" />
   <meta name="theme-color" content="#183820">
   <title><?php if (isset($_GET['q']) && !empty($_GET['q'])) {
             echo 'Search results for ' . $search;
