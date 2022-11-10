@@ -84,7 +84,7 @@ function activeSubDrop($doc1)
 <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvas"
   style="background-color: #183820;">
   <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasHead"><a class="navbar-brand" href="/">MechNoSense</a></h5>
+    <h5 class="offcanvas-title" id="offcanvasHead"><a class="navbar-brand" href="/">Say Watt</a></h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
   <div class="offcanvas-body">
