@@ -20,9 +20,7 @@ body {
   backface-visibility: hidden;
 }
 
-#logo {
-  margin-left: calc(100% / 4);
-}
+#logo {}
 
 #logo-div {
   display: flex;

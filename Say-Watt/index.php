@@ -37,7 +37,7 @@ $doc = "Home";
       <h1 id="title123">
         <div id="logo-div">
           Say<br>Watt
-          <img src="https://placekitten.com/300/208/" height="300px" width="208px" alt="Logo" id="logo" />
+          <img src="/logo.png" height="300px" width="208px" alt="Logo" id="logo" />
         </div>
       </h1>
       <hr>
