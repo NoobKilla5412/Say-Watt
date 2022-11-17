@@ -36,7 +36,7 @@ $doc = "Home";
     <div class="jumbotron text-center">
       <h1 id="title123">
         <div id="logo-div">
-          <img src="/logo.png" height="300px" alt="Logo" id="logo" />
+          <img src="/logo.png" width="100%" alt="Logo" id="logo" />
         </div>
       </h1>
       <hr>
