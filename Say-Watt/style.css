@@ -20,8 +20,6 @@ body {
   backface-visibility: hidden;
 }
 
-#logo {}
-
 #logo-div {
   display: flex;
   justify-content: center;
