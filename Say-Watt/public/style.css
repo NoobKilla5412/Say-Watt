@@ -32,3 +32,24 @@ body {
 .navbar-brand {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+#offcanvas {
+  background: #470047
+}
+
+.nav-link,
+.dropdown-item {
+  color: white
+}
+
+.nav-link.active {
+  color: yellow;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.dropdown-menu.show {
+  background: #470047;
+}
