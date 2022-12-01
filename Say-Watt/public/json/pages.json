@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Home",
+    "description": "The home page",
+    "content": "About Our Team:",
+    "link": "/"
+  },
+  {
+    "title": "About Us",
+    "description": "About Our Team",
+    "content": "",
+    "link": "/about-us/"
+  }
+]
