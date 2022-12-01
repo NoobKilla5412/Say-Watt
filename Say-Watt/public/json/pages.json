@@ -12,6 +12,12 @@
     "link": "/about-us/"
   },
   {
+    "title": "Robots",
+    "description": "Our robots.",
+    "content": "",
+    "link": "/robots/"
+  },
+  {
     "title": "Daily Log",
     "description": "Log of practices.",
     "content": "",
