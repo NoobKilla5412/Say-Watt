@@ -10,5 +10,11 @@
     "description": "About Our Team",
     "content": "",
     "link": "/about-us/"
+  },
+  {
+    "title": "Daily Log",
+    "description": "Log of practices.",
+    "content": "",
+    "link": "/daily-log/"
   }
 ]
