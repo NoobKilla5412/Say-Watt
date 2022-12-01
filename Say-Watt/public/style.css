@@ -55,3 +55,7 @@ body {
 .dropdown-menu.show {
   background: #470047;
 }
+
+.correct {
+  text-decoration: underline wavy blue;
+}

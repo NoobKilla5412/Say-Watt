@@ -5,7 +5,7 @@
   },
   {
     "name": "Brandon",
-    "bio": ""
+    "bio": "I coded this website with styling from Abram."
   },
   {
     "name": "Dane",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Gage",
-    "bio": "Gage Penicillin likes Canadian United Media, Tennis and Fingerboarding, hanging out with friends and playing video games. I am new to robotics but I am enjoying it by building part of our robot."
+    "bio": "Gage <span class=\"correct\">Penicillin</span> likes Canadian United Media, Tennis and Fingerboarding, hanging out with friends and playing video games. I am new to robotics but I am enjoying it by building part of our robot."
   },
   {
     "name": "Grae",
