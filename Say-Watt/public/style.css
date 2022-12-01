@@ -57,5 +57,5 @@ body {
 }
 
 .correct {
-  text-decoration: underline wavy blue;
+  text-decoration: underline wavy blue 1px;
 }
