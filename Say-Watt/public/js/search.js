@@ -1,13 +1,13 @@
 const urlParams = new URLSearchParams(window.location.search);
 const query = urlParams.get('q');
 const lowerQuery = query.toLowerCase();
+const newTitle = document.createElement('title');
+newTitle.innerHTML = query ? `${query} &#8211; Say Watt` : 'Search &#8211; Say Watt';
+document.head.append(newTitle);
+document.getElementById('q').value = query;
+const results = document.getElementById('results');
+var numResults = 0;
 if (query.length >= 1) {
-  document.getElementById('q').value = query;
-  const newTitle = document.createElement('title');
-  newTitle.innerHTML = query + ' &#8211; Say Watt';
-  document.head.append(newTitle);
-  const results = document.getElementById('results');
-  var numResults = 0;
   fetch('/json/pages.json')
     .then(data => data.json())
     .then((data) => {
@@ -20,6 +20,6 @@ if (query.length >= 1) {
       });
     });
 } else {
-  console.error('The search query must be at least 1 character.');
   document.write('The search query must be at least 1 character.')
+  throw new Error('The search query must be at least 1 character.');
 }
