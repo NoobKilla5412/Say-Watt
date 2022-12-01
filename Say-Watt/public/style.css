@@ -5,6 +5,8 @@ body {
 .jumbotron {
   background-color: yellow;
   border-radius: .3rem;
+  padding: 1px 5px;
+  margin: 10px 0px;
 }
 
 #footer {
