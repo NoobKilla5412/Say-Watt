@@ -1,26 +1,26 @@
 [
   {
-    "title": "Home",
-    "description": "The home page",
-    "content": "About Our Team:",
-    "link": "/"
-  },
-  {
     "title": "About Us",
     "description": "About our team",
     "content": "",
     "link": "/about-us/"
   },
   {
-    "title": "Robots",
-    "description": "Our robots.",
-    "content": "",
-    "link": "/robots/"
-  },
-  {
     "title": "Daily Log",
     "description": "Log of practices.",
     "content": "",
     "link": "/daily-log/"
+  },
+  {
+    "title": "Home",
+    "description": "The home page",
+    "content": "About Our Team:",
+    "link": "/"
+  },
+  {
+    "title": "Robots",
+    "description": "Our robots.",
+    "content": "",
+    "link": "/robots/"
   }
 ]
