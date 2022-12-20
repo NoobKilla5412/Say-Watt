@@ -1,11 +1,10 @@
-"use strict";
 // @ts-ignore
-const members = document.getElementById('members');
+const members: HTMLDivElement = document.getElementById('members');
 fetch('/json/members.json')
-    .then((data) => data.json())
-    .then((data) => {
-    data.forEach((element) => {
-        members.innerHTML += `<div class="jumbotron">
+  .then((data) => data.json())
+  .then((data) => {
+    data.forEach((element: { name: string; bio: string }) => {
+      members.innerHTML += `<div class="jumbotron">
            <p>
              ${element.name}
            </p>
@@ -17,4 +16,4 @@ fetch('/json/members.json')
            </p>
          </div>`;
     });
-});
+  });
