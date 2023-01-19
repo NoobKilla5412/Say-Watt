@@ -1,3 +1,4 @@
+"use strict";
 // function offCanvasColorNormal() {
 //   document.getElementById('offcanvas').style.background = '#470047';
 //   for (let a = 0; a < navLinks.length; a++) {
@@ -15,21 +16,21 @@
 //   document.getElementsByClassName('nav-link active')[0].style.color = 'yellow';
 //   document.getElementsByClassName('navbar-brand')[1].style.color = 'white';
 // }
-var docName = null;
-// document.addEventListener('DOMContentLoaded', (e) => {
-fetch('/navbar.html')
-  .then(data => data.text())
-  .then((data) => {
-    document.getElementById('navbarDiv').innerHTML = data;
-    const links = document.getElementsByClassName('nav-link');
-    for (var link of links) {
-      if (docName == link.innerHTML)
-        link.className = 'nav-link active';
-    }
-  });
-fetch('/footer.html')
-  .then(data => data.text())
-  .then((data) => {
-    document.getElementById('footer').innerHTML = data;
-  });
-// });
+var docName = "";
+document.addEventListener("DOMContentLoaded", (e) => {
+    fetch("/navbar.html")
+        .then((data) => data.text())
+        .then((data) => {
+        document.getElementById("navbarDiv").innerHTML = data;
+        const links = document.getElementsByClassName("nav-link");
+        for (var link of links) {
+            if (docName == link.innerHTML)
+                link.className = "nav-link active";
+        }
+    });
+    fetch("/footer.html")
+        .then((data) => data.text())
+        .then((data) => {
+        document.getElementById("footer").innerHTML = data;
+    });
+});
